@@ -1,0 +1,116 @@
+/*
+    ColorBox Core Style
+    The following rules are the styles that are consistant between themes.
+    Avoid changing this area to maintain compatability with future versions of ColorBox.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto;}
+#cboxLoadedContent iframe{display:block; width:100%; height:100%; border:0;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+
+/* 
+    ColorBox example user style
+    The following rules are ordered and tabbed in a way that represents the
+    order/nesting of the generated HTML, so that the structure easier to understand.
+*/
+#cboxOverlay{background:#666;}
+
+#colorbox{}
+    #cboxContent{margin-top:20px;}
+        #cboxLoadedContent{background:#000; padding:5px;}
+        #cboxTitle{position:absolute; top:-20px; left:0; color:#ccc;}
+        #cboxCurrent{position:absolute; top:-20px; right:0px; color:#ccc;}
+        #cboxSlideshow{position:absolute; top:-20px; right:90px; color:#fff;}
+        #cboxPrevious{position:absolute; top:50%; left:5px; margin-top:-32px; background:url(template/img/controls.png) top left no-repeat; width:28px; height:65px; text-indent:-9999px;}
+        #cboxPrevious.hover{background-position:bottom left;}
+        #cboxNext{position:absolute; top:50%; right:5px; margin-top:-32px; background:url(template/img/controls.png) top right no-repeat; width:28px; height:65px; text-indent:-9999px;}
+        #cboxNext.hover{background-position:bottom right;}
+        #cboxLoadingOverlay{background:#000;}
+        #cboxLoadingGraphic{background:url(template/img/loading.gif) center center no-repeat;}
+        #cboxClose{position:absolute; top:5px; right:5px; display:block; background:url(template/img/controls.png) top center no-repeat; width:38px; height:19px; text-indent:-9999px;}
+        #cboxClose.hover{background-position:bottom center;}
+
+
+/* You can alter this CSS in order to give Smooth Div Scroll your own look'n'feel */
+
+/* Invisible left hotspot */
+div.scrollingHotSpotLeft
+{
+	/* The hotspots have a minimum width of 100 pixels and if there is room the will grow
+    and occupy 15% of the scrollable area (30% combined). Adjust it to your own taste. */
+	min-width: 75px;
+	width: 10%;
+	height: 100%;
+	/* There is a big background image and it's used to solve some problems I experienced
+    in Internet Explorer 6. */
+	background-image: url(template/img/big_transparent.gif);
+	background-repeat: repeat;
+	background-position: center center;
+	position: absolute;
+	z-index: 200;
+	left: 0;
+	/*  The first url is for Firefox and other browsers, the second is for Internet Explorer */
+	cursor: url(template/img/cursor_arrow_left.png), url(template/img/cursor_arrow_left.cur),w-resize;
+}
+
+/* Visible left hotspot */
+div.scrollingHotSpotLeftVisible
+{
+	background-image: url(template/img/arrow_left.gif);				
+	background-color: #fff;
+	background-repeat: no-repeat;
+	opacity: 0.5; /* Standard CSS3 opacity setting */
+	-moz-opacity: 0.5; /* Opacity for really old versions of Mozilla Firefox (0.9 or older) */
+	filter: alpha(opacity = 50); /* Opacity for Internet Explorer. */
+	zoom: 1; /* Trigger "hasLayout" in Internet Explorer 6 or older versions */
+}
+
+/* Invisible right hotspot */
+div.scrollingHotSpotRight
+{
+	min-width: 75px;
+	width: 10%;
+	height: 100%;
+	background-image: url(template/img/big_transparent.gif);
+	background-repeat: repeat;
+	background-position: center center;
+	position: absolute;
+	z-index: 200;
+	right: 0;
+	cursor: url(template/img/cursor_arrow_right.png), url(template/img/cursor_arrow_right.cur),e-resize;
+}
+
+/* Visible right hotspot */
+div.scrollingHotSpotRightVisible
+{
+	background-image: url(template/img/arrow_right.gif);
+	background-color: #fff;
+	background-repeat: no-repeat;
+	opacity: 0.5;
+	filter: alpha(opacity = 50);
+	-moz-opacity: 0.5;
+	zoom: 1;
+}
+
+/* The scroll wrapper is always the same width and height as the containing element (div).
+   Overflow is hidden because you don't want to show all of the scrollable area.
+*/
+div.scrollWrapper
+{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+div.scrollableArea
+{
+	position: relative;
+	width: auto;
+	height: 100%;
+}

@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001667144865';
+$dateexpire = '001667148465';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:2:{i:7470;a:14:{s:2:"ID";s:4:"7470";s:11:"TIMESTAMP_X";s:19:"13.05.2022 10:54:48";s:9:"MODULE_ID";s:6:"iblock";s:6:"HEIGHT";s:3:"176";s:5:"WIDTH";s:3:"234";s:9:"FILE_SIZE";s:4:"8935";s:12:"CONTENT_TYPE";s:10:"image/jpeg";s:6:"SUBDIR";s:10:"iblock/a7b";s:9:"FILE_NAME";s:36:"a7b8cdabd85e6ed662ebfbd7a61da9a8.jpg";s:13:"ORIGINAL_NAME";s:22:"moykadlykyhnistati.jpg";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:11:"EXTERNAL_ID";s:32:"b880f1a4bb900dc1f9b792acc38bd7ca";s:4:"~src";b:0;}i:7471;a:14:{s:2:"ID";s:4:"7471";s:11:"TIMESTAMP_X";s:19:"26.10.2022 16:07:24";s:9:"MODULE_ID";s:6:"iblock";s:6:"HEIGHT";s:3:"443";s:5:"WIDTH";s:3:"621";s:9:"FILE_SIZE";s:6:"169948";s:12:"CONTENT_TYPE";s:10:"image/jpeg";s:6:"SUBDIR";s:10:"iblock/2a5";s:9:"FILE_NAME";s:36:"2a5577a6ea225fee1824263e07b17c26.jpg";s:13:"ORIGINAL_NAME";s:158:"полипропиленовые фитинги цена 2 тыс изображений найдено в Яндекс Картинках - Google Chrome.jpg";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:11:"EXTERNAL_ID";s:32:"cb4610dbb0d4493e8f58b9f36216c7a0";s:4:"~src";b:0;}}}';
+return true;
+?>

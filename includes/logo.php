@@ -1,0 +1,1 @@
+<a href="/" class="header__logo"><img src="/bitrix/templates/index/template/img/logo.png" alt=""></a>

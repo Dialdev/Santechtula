@@ -1,0 +1,1 @@
+<a href="/" class="footer__logo"><img src="/bitrix/templates/index/template/img/logof.png" alt=""></a>

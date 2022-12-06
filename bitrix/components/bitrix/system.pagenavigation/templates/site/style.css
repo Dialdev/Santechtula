@@ -1,0 +1,20 @@
+.pagi {
+	clear: both;
+	float: right;
+	color: #292929;
+	font-size: 16px; 
+	margin-bottom: 40px;
+}
+
+.pagi a, .pagi span{
+	margin: 0 2px;
+	color: #292929;
+	text-decoration: none;
+}
+
+.pagi .nav-current-page {
+	color: #fff;
+	background: #AD2525;
+	padding: 2px 8px 1px;
+    border-radius: 28px;
+}

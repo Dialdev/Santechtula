@@ -1,0 +1,1 @@
+<? $arFilesInfo = array( 'FILES' => array("/bitrix/components/bitrix/catalog.smart.filter/templates/catalog/script.js" => "162210513713954",), 'CUR_SEL_CNT' => '0', 'CUR_IE_CNT' => '0'); ?>

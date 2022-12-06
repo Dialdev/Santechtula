@@ -1,0 +1,4 @@
+.search input.text::-webkit-input-placeholder {font-style: italic;}
+.search input.text::-moz-placeholder            {font-style: italic;}/* Firefox 19+ */
+.search input.text:-moz-placeholder            {font-style: italic;}/* Firefox 18- */
+.search input.text:-ms-input-placeholder      {font-style: italic;}

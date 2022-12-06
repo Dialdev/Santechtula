@@ -1,0 +1,25 @@
+.myprop7 {
+    width: 100px;
+    /* margin-bottom: -700px; */
+    /* position: absolute; */
+    display: block;
+    margin-top: 5px;
+    font-size: 20px;
+    padding-top: 15px;
+    margin-left: -20px;
+}
+.myprop7 .bx_sof_req{
+  display:none;
+}
+
+.myprop7 a{
+    width: 400px;
+    height: 40px;
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#sale_order_props {
+margin-bottom:40px;
+}

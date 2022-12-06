@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/santechtula.ru/webstat"
+AuthUserFile /var/www/bitrix/data/etc/3161100.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

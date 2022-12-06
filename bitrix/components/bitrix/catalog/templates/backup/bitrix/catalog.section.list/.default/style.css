@@ -1,0 +1,55 @@
+.sections {
+	float: left;
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.item {
+    width: 114px;
+    margin-left: 12px;
+    float: left;
+    height: 170px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.item:nth-child(8n+1) {margin-left: 0px;}
+
+.item a {
+	color: #2f2f2f;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+.item span.image {
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin: 10px 0;
+}
+
+.item span.image img.preview {
+	width: 98px;
+	height: 98px;
+	border-radius: 100px;
+	border: 3px solid #CCCCCC;
+}
+
+.item span.image .hover {
+	display: none;
+	position: absolute;
+	top: 10px;
+	border: 3px solid #D23C3C;
+	box-shadow: 0 0 40px #CACDD2;
+	width: 98px;
+	border-radius: 100px;
+	height: 98px;
+}
+
+.item:hover span.image img.preview{
+	display: none;
+}
+
+.item:hover span.image img.hover {
+	display: block;
+}

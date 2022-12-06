@@ -1,0 +1,1 @@
+<span class="footer__copi">«Интернет-магазин сантехники<br> ©2016-<? echo date("Y");?>»</span>

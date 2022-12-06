@@ -1,0 +1,42 @@
+.sale-page {
+	float: left;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.sale-page .sale-item__title {
+    color: #303030;
+    display: block;
+    height: 40px;
+    line-height: 1.2;
+    overflow: hidden;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.sale-page  .sale-item {
+	color: #303030;
+	height: 140px;
+	padding: 20px 10px;
+	float: left;
+	width: 470px;
+	margin-right: 20px;
+}
+
+.sale-page  .sale-item:nth-child(2n){margin: 0;}
+
+.sale-page .sale-item:hover{
+	box-shadow: 0 0 40px #CACDD2;
+}
+
+.sale-page .sale-item__img {
+	float: left;
+	width: 190px;
+	margin-right: 20px;
+}
+
+.sale-page .sale-item__date {
+	color: #D50202;
+}

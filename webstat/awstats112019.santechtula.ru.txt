@@ -1,0 +1,293 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201911 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.santechtula.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1997                
+POS_TIME 2684                
+POS_VISITOR 3424                
+POS_DAY 3981                
+POS_DOMAIN 4132                
+POS_LOGIN 4361                
+POS_ROBOT 4516                
+POS_WORMS 5230                
+POS_EMAILSENDER 5361                
+POS_EMAILRECEIVER 5504                
+POS_SESSION 5580                
+POS_SIDER 5726                
+POS_FILETYPES 6259                
+POS_DOWNLOADS 6464                
+POS_OS 6512                
+POS_BROWSER 6630                
+POS_SCREENSIZE 6835                
+POS_UNKNOWNREFERER 6909                
+POS_UNKNOWNREFERERBROWSER 7051                
+POS_ORIGIN 7133                
+POS_SEREFERRALS 7266                
+POS_PAGEREFS 7438                
+POS_SEARCHWORDS 7586                
+POS_KEYWORDS 7747                
+POS_MISC 2348                
+POS_ERRORS 7815                
+POS_CLUSTER 4217                
+POS_SIDER_404 7931                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20191101063722 4743 1260185 11995855158630
+FirstTime 20191101002026
+LastTime 20191101063511
+LastUpdate 20191101063736 4743 0 4743 0 0
+TotalVisits 10                  
+TotalUnique 10                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 11                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 2 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 4 139188 52 74 1130345
+1 2 2 76592 82 108 1209716
+2 8 98 2232168 65 94 1140628
+3 3 3 104812 65 76 843973
+4 5 5 221697 74 96 1017797
+5 2 2 76592 59 93 1346623
+6 2 2 6164 84 160 1832736
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 0 0 0 0 0 0
+10 0 0 0 0 0 0
+11 0 0 0 0 0 0
+12 0 0 0 0 0 0
+13 0 0 0 0 0 0
+14 0 0 0 0 0 0
+15 0 0 0 0 0 0
+16 0 0 0 0 0 0
+17 0 0 0 0 0 0
+18 0 0 0 0 0 0
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 11
+46.185.116.180 5 5 221697 20191101041058
+70.42.131.189 4 94 2149098 20191101025317
+107.172.4.226 3 3 104812 20191101030051
+185.183.95.204 2 2 76903 20191101022531
+176.223.39.254 2 2 6167 20191101021453
+118.169.72.4 2 2 76592 20191101005121
+168.211.156.104 2 2 6164 20191101063511 20191101063503 /phpmyadmin//index.php
+163.172.37.251 2 2 76592 20191101013359
+217.160.60.234 2 2 76592 20191101055628 20191101055627 /reviews/
+38.99.62.94 1 1 16162 20191101002026
+37.204.42.99 0 1 46434 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20191101 25 116 2857213 10
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 25 116 2857213
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 15
+SemrushBot/ 132 1399886 20191101063703 14
+YandexBot/ 59 1298976 20191101063722 5
+YandexMetrika/ 51 824420 20191101063324 0
+bingpreview 46 810403 20191101061117 0
+DotBot/ 44 1460516 20191101062214 7
+AhrefsBot/ 42 838411 20191101062900 0
+bingbot/ 37 690483 20191101063344 3
+Mail\.RU_Bot/ 26 283439 20191101062808 0
+Googlebot/ 15 164216 20191101061302 1
+Googlebot\-Image/ 6 140109 20191101062510 0
+no_user_agent 2 138686 20191101010923 0
+YandexMobileBot/ 1 2235 20191101024127 0
+MJ12bot/ 2 19996 20191101063443 1
+YandexImages/ 1 51031 20191101013654 0
+yandex 2 98262 20191101013844 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 8
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 9
+/reviews/ 13 497433 5 4
+/ 3 101498 3 1
+/phpmyadmin/ 2 6197 2 0
+/phpmyadmin/index.php 2 6134 0 1
+/bitrix/templates/index/template/fonts/pt_sans_narrow_bold-webfont.woff2 1 33134 0 1
+/personal/profile/index.php 1 32342 0 0
+/bitrix/templates/index/template/fonts/PTSans-Italic.woff 1 217561 0 0
+/bitrix/templates/index/template/fonts/pt-sans-narrow_allfont.ru-webfont.woff2 1 34014 0 0
+/personal/profile/ 1 34243 0 1
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+jpg 50 1274860 0 0
+woff2 2 67148 0 0
+woff 1 217561 0 0
+html 19 639371 0 0
+php 3 38476 0 0
+css 4 46855 0 0
+png 26 314339 0 0
+js 11 258603 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 5
+win8.1 7 7
+Unknown 1 1
+win7 99 9
+win10 5 4
+linux 4 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 8
+mozilla 1 1
+chrome77.0.3865.120 1 0
+chrome67.0.3396.87 7 7
+msie8.0 94 4
+opera53.0.2907.99 5 5
+chrome67.0.3396.99 2 2
+opera53.0.2907.68 2 2
+firefox62.0 4 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Mozilla/5.0_(compatible;_evc-batch/2.0) 20191101002026
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1 1
+From1 0 0
+From2 1 2
+From3 0 0
+From4 23 113
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com 0 1
+bing 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+amazon 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+amazon 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+301 219 42394
+302 5 148752
+404 9 108441
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 9
+/catalog/komplektuyushchie-dlya-smesiteley/kran-buksy/ 1 -
+/upload/iblock/009/009a73ac9e3f934c231a93736d5b1632.jpg 1 -
+/catalog/smesiteli/leyki-dlya-dusha/smesiteli-gappo-dlya-vannoy/g2239-smesiteli-dlya-vannoy-lyuks-/ 1 -
+/ads.txt 1 -
+/news/2776/ 1 -
+/catalog/smesiteli/leyki-dlya-dusha/smesitel-frap/f2163-smes-d-vanny/ 1 -
+/.env 1 -
+/forum/ 1 https://santechtula.ru/forum/
+/news/2773/ 1 -
+END_SIDER_404

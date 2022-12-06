@@ -1,0 +1,24 @@
+.yandex-search {
+  }
+  .yandex-search ol {
+    list-style-type:decimal;
+    margin-left:24px;
+    }
+  .yandex-search li {
+    margin-bottom:1em;
+    }
+  .yandex-search .title {
+    font-size:1.2em;
+    }
+  .yandex-search .info,
+  .yandex-search .info a {
+    font-size:.9em;
+    color:#888;
+    }
+  .yandex-search .ya-logo img {
+    vertical-align:middle;
+    margin:-3px 8px 0 0;
+    }
+  .yandex-search .highlight {
+    background-color:#dedede;
+    }

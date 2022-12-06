@@ -1,0 +1,53 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Мойки", 
+		"/catalog/moyki/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"ПНД", 
+		"/catalog/pnd/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Полипропилен", 
+		"/catalog/polipropilen/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Полотенцесушители", 
+		"/catalog/polotentsesushiteli/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Радиаторы", 
+		"/catalog/radiatory/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Санфаянс", 
+		"/catalog/sanfayans/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Смесители", 
+		"/catalog/smesiteli/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

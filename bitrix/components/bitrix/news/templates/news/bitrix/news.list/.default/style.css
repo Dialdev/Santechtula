@@ -1,0 +1,25 @@
+.news-page {
+	float: left;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.news-page .news-item__title {
+    color: #303030;
+}
+
+.news-page  .news-item {
+	color: #303030;
+	height: 350px;
+	padding: 40px 10px 0;
+	margin-right: 0;
+}
+
+.news-page .news-item:hover{
+	box-shadow: 0 0 40px #CACDD2;
+}
+
+.news-page .news-item:after {
+    left: 28px;
+    top: 21px;
+}
